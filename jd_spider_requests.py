@@ -298,7 +298,6 @@ class JdSeckill(object):
         else:
             raise SKException("二维码登录失败！")
 
-    @staticmethod
     def check_login(func):
         """
         用户登陆态校验装饰器。若用户未登陆，则调用扫码登陆
